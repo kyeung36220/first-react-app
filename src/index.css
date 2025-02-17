@@ -1,0 +1,51 @@
+.list-category {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: hsl(185, 100%, 50%);
+}
+
+.list-items li {
+    font-size: 2em;
+    list-style: none;
+    color: hsl(0, 0%, 20%);
+    text-align: center;
+    margin: 0;
+}
+
+.list-items li:hover {
+    color: hsl(0, 0%, 50%);
+    cursor: pointer;
+}
+
+.countNumber {
+    font-size: 10em;
+    text-align: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsContainer button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonsContainer button:hover {
+    background-color: rgb(0, 0, 174);
+}
